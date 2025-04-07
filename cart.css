@@ -1,0 +1,176 @@
+body {
+    color: white;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+    flex-direction: column;
+  }
+  
+  
+  
+  nav {
+    background-color: #181818;
+    border-radius: 100px;
+    min-width: 1000px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    flex-direction: row;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-right: 160px;
+    transition: 0.3s;
+  }
+  .logo:hover {
+    cursor: pointer;
+    scale: 1.02;
+  }
+  
+  .ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+  }
+  
+  a {
+    padding: 0 20px;
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  .cartNav {
+    display: flex;
+  flex-direction: row;
+  }
+  
+  .cartSVG {
+    margin-right: -7px;
+    color: white;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .contactNav {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .contactSVG {
+    margin-right: -7px;
+    color: white;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .aboutNav {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .aboutSVG {
+    margin-right: -7px;
+    color: white;
+    width: 25px;
+    height: 25px;
+  }
+  
+  
+  .cartheadclear {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .clear {
+    border-radius: 50vh;
+    min-height: 50px;
+    min-width: 150px;
+    border: none;
+    background-color: red;
+    color: white;
+    margin-left: 600px;
+  }
+  
+  .clear:hover{
+    cursor: pointer;
+  }
+  
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(23, 23, 23, 255);
+    width: 300px;
+    min-height: 340px;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 50px;
+    transition: all 0.4s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    scale: 1.02;
+  }
+  
+  .carImg {
+    border-radius: 0px;
+    height: 100% !important;
+    width: 100% !important;
+    border: none;
+  }
+  
+  .car-name {
+    font-size: 24px;
+  }
+  .car-disc {
+    font-size: 14px;
+    color: gray;
+    margin-top: -20px;
+    text-align: center;
+  }
+  
+  .car-details {
+    background-color: #4c4c4c;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 50vh;
+    margin: 5px;
+    margin-right: 10px;
+    transition: 0.2s;
+    font-size: 16px;
+  }
+  
+  .car-details:hover {
+    scale: 1.03;
+    cursor: pointer;
+  }
